@@ -16,11 +16,11 @@ export function Travels(props){
     <>
     <div className= {`flex gap-5 items-center mt-8 w-[470px] h-[168px] mx-auto ${props.id !== travels.length && 'pb-10 border-b'}`}>
       <img src = {props.img} className='rounded-lg'/>
-      <div className='flex flex-col gap-2 px-2 borderb'>
+      <div className='flex flex-col gap-2 px-2'>
         <div className='flex items-center gap-2'>
           <img src='./Fill 220.svg' className='w-[7px] h-[10px]'/>
           <p className='text-[10.24px]'>{props.country}</p>
-          <p className='border-b-2 border-[#918E9B] text-[#918E9B] text-[10.24px]'>View on Google Maps</p>
+          <p className='border-b border-[#918E9B] text-[#918E9B] text-[10.24px]'>View on Google Maps</p>
         </div>
         <p className='text-[25px] font-bold'>{props.location}</p>
         <p className='text-[10.24px] font-bold'>{props.date.start} - {props.date.end}</p>
