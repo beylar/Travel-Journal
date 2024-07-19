@@ -38,7 +38,7 @@ export default function App() {
     {...travel}/>)
   return (
     <>
-    <div className='w-[550px] h-[704px] mx-auto bg-white'>
+    <div className='w-[550px] h-[704px] mx-auto bg-white shadow-lg'>
       <Navbar />
       <div className='flex flex-col gap-2'>
       {travelJournal}
